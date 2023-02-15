@@ -33,7 +33,7 @@ function deleteFile(){
 
 $(document).ready(function(){
     let video = document.getElementById('video');
-    let videoSrc = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
+    let videoSrc = 'http://10.3.129.74:5001/index.m3u8';
 
     if (Hls.isSupported()) {
         let hls = new Hls();
